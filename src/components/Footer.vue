@@ -5,7 +5,7 @@
         <div class="has-text-centered">
           <div>
             <p>
-              &copy; luisjg {{ currentYear }}
+              &#169; luisjg {{ currentYear }}
             </p>
           </div>
           <div class="has-text-centered contact-icons-container">
