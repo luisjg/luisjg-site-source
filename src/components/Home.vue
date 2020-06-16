@@ -1,14 +1,14 @@
 <template>
   <div id="home">
     <section id="home-section" class="section">
-      <div class="container">
+      <div class="container has-text-centered">
         <h1 class="title">Hello there!</h1>
       </div>
     </section>
 
     <div class="columns is-centered is-mobile pb-4">
       <div class="column is-two-thirds-desktop is-four-fifths-mobile">
-        <p class="is-size-5 tab">
+        <p class="is-size-5 tab readability-fix">
           I'm a <strong>Software Engineer</strong> from the
           <strong>Los Angeles</strong> area with <strong>{{ this.diff }} years</strong>
           of experience working as a <strong>Full Stack Web Developer</strong>
@@ -25,7 +25,7 @@
           unique <strong>individuals</strong> striving to solve one
           <strong>goal</strong>.
         </p>
-        <p class="is-size-5 has-text-centered pt-1-half"> If you would like to
+        <p class="is-size-5 has-text-centered pt-1-half readability-fix"> If you would like to
           know more about me or are interested in collaborating,
           feel free and send me an <strong><a href="mailto:contact@luisjg.io"
             rel="noopener noreferrer" target="_blank"
@@ -37,8 +37,20 @@
 </template>
 
 <style scoped>
- .tab {
+  .tab {
    text-indent:5%;
+  }
+  @media screen and (min-width: 1024px) {
+    .readability-fix {
+      width: 68ch;
+      margin-left: -1em;
+    }
+  }
+  @media screen and (min-width: 1215px) {
+    .readability-fix {
+      width: 68ch;
+      margin-left: 8em;
+    }
   }
 </style>
 

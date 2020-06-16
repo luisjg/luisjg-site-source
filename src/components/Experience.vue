@@ -1,7 +1,7 @@
 <template>
   <div id="experience">
     <section class="section">
-      <div class="container">
+      <div class="container has-text-centered">
         <h1 class="title">
           Experience
         </h1>
@@ -13,7 +13,7 @@
 
     <div class="columns is-centered is-mobile pb-4">
       <div class="column is-two-thirds-desktop is-four-fifths-mobile">
-        <div class="is-size-5">
+        <div class="is-size-5 readability-fix">
           <h3 class="has-text-weight-bold">Web Developer at California State University, Northridge</h3>
           <p>November 2015 - Present</p>
           <ul>
@@ -27,6 +27,18 @@
 </template>
 
 <style scoped>
+  @media screen and (min-width: 1024px) {
+    .readability-fix {
+      width: 68ch;
+      margin-left: -1em;
+    }
+  }
+  @media screen and (min-width: 1215px) {
+    .readability-fix {
+      width: 68ch;
+      margin-left: 8em;
+    }
+  }
   .is-size-4-desktop p {
     padding-top: 0.5rem;
   }

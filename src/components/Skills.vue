@@ -1,7 +1,7 @@
 <template>
   <div id="experience">
     <section class="section">
-      <div class="container">
+      <div class="container has-text-centered">
         <h1 class="title">
           Skills
         </h1>

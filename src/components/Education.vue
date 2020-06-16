@@ -1,7 +1,7 @@
 <template>
   <div id="education">
     <section class="section">
-      <div class="container">
+      <div class="container has-text-centered">
         <h1 class="title">
           Education
         </h1>
@@ -13,7 +13,7 @@
 
     <div class="columns is-centered pb-4">
       <div class="column is-two-fifths-desktop is-half-tablet">
-        <p class="has-text-centered title is-4"><a href="#" id="csun" data-id="csun" @click.prevent="modalAction">{{ schoolData.csun.title }}</a></p>
+        <p class="has-text-centered title is-4"><u><a href="#" id="csun" data-id="csun" @click.prevent="modalAction">{{ schoolData.csun.title }}</a></u></p>
         <div class="timeline is-centered">
           <header class="timeline-header">
             <span class="tag is-medium is-primary">Start</span>
@@ -53,7 +53,7 @@
       </div>
 
       <div class="column is-two-fifths-desktop is-half-tablet pb-4">
-        <p class="has-text-centered title is-4"><a href="#" id="gcc" data-id="gcc" @click.prevent="modalAction">{{ schoolData.gcc.title }}</a></p>
+        <p class="has-text-centered title is-4"><u><a href="#" id="gcc" data-id="gcc" @click.prevent="modalAction">{{ schoolData.gcc.title }}</a></u></p>
         <div class="timeline is-centered">
         <header class="timeline-header is-icon">
           <span class="tag is-medium is-primary">Start</span>

@@ -1,7 +1,7 @@
 <template>
   <div id="portfolio">
     <section id="portfolio-section" class="section">
-      <div class="container">
+      <div class="container has-text-centered">
         <h1 class="title">
           Portfolio
         </h1>
@@ -18,7 +18,7 @@
             <figure class="image">
               <a @click.prevent="modalAction" href="#"><img :data-id="item[0]" :src="item[1].image" :alt="item[1].title + ' App Image'"></a>
             </figure>
-            <p class="has-text-centered title is-4 pt-1-half"><a @click.prevent="modalAction" :data-id="item[0]" href="#" class="app-links" v-html="item[1].title"></a></p>
+            <p class="has-text-centered title is-4 pt-1-half"><u><a @click.prevent="modalAction" :data-id="item[0]" href="#" class="app-links">{{ item[1].title }}</a></u></p>
             <div class="has-text-centered" v-html="item[1].description"></div>
           </div>
         </div>
@@ -32,7 +32,7 @@
             <figure class="image">
               <a @click.prevent="modalAction" href="#"><img :data-id="item[0]" :src="item[1].image" :alt="item[1].title + ' App Image'"></a>
             </figure>
-            <p class="has-text-centered title is-4 pt-1-half"><a @click.prevent="modalAction" :data-id="item[0]" href="#" class="app-links" v-html="item[1].title"></a></p>
+            <p class="has-text-centered title is-4 pt-1-half"><u><a @click.prevent="modalAction" :data-id="item[0]" href="#" class="app-links">{{ item[1].title }}</a></u></p>
             <div class="has-text-centered" v-html="item[1].description"></div>
           </div>
         </div>
