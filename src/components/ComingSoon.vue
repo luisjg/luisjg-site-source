@@ -1,7 +1,7 @@
 <template>
   <div id="coming-soon">
     <section id="comming-soon-section" class="section">
-      <div class="container">
+      <div class="container has-text-centered">
         <h1 class="title">
           Coming Soon!
         </h1>

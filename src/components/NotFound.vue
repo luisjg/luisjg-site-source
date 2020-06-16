@@ -1,7 +1,7 @@
 <template>
   <div id="not-found">
     <section id="not-found-section" class="section">
-      <div class="container">
+      <div class="container has-text-centered">
         <h1 class="title">
           WARNING
         </h1>
