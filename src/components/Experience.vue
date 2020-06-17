@@ -12,7 +12,7 @@
     </section>
 
     <div class="columns is-centered is-mobile pb-4">
-      <div class="column is-half">
+      <div class="column is-half-tablet is-four-fifths-mobile">
         <div class="is-size-5 readability-fix">
           <h3 class="has-text-weight-bold">Web Developer at California State University, Northridge</h3>
           <p>November 2015 - Present</p>
@@ -29,7 +29,7 @@
 <style scoped>
   @media screen and (min-width: 1024px) {
     .readability-fix {
-      width: 68ch;
+      max-width: 68ch;
     }
   }
   .is-size-4-desktop p {
