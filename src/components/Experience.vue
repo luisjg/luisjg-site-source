@@ -29,7 +29,8 @@
 <style scoped>
   @media screen and (min-width: 1024px) {
     .readability-fix {
-      max-width: 68ch;
+      margin-right: 10%;
+      margin-left: 10%;
     }
   }
   .is-size-4-desktop p {
