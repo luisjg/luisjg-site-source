@@ -37,9 +37,6 @@
                   <router-link @click.native="hamburgerToggle()" :to="{name: 'skills'}" active-class="is-active" class="navbar-item">
                     Skills
                   </router-link>
-                  <router-link @click.native="hamburgerToggle()" :to="{name: 'education'}" active-class="is-active" class="navbar-item">
-                    Education
-                  </router-link>
                   <router-link @click.native="hamburgerToggle()" :to="{name: 'blog'}" active-class="is-active" class="navbar-item">
                     Blog
                   </router-link>
@@ -109,8 +106,8 @@
     margin: auto;
   }
   .image.is-responsive {
-    height: 128px;
-    width: 128px;
+    height: 110px;
+    width: 110px;
   }
   .hero.is-light.is-bold {
     background-image: none;
