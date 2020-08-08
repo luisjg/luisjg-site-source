@@ -14,7 +14,7 @@
     <div class="columns is-centered">
       <div class="column is-half">
         <div class="columns is-centered">
-          <div class="column is-half">
+          <div class="column">
             <div class="has-text-centered">
               <i class="fad fa-7x fa-laptop-code russian-green" aria-hidden="true"></i>
               <p class="title is-4 pt-1-half">Back End</p>
@@ -23,7 +23,7 @@
               </div>
             </div>
           </div>
-          <div class="column is-half">
+          <div class="column">
             <div class="has-text-centered padded--top__mobile">
               <i class="fad fa-7x fa-browser russian-green" aria-hidden="true"></i>
               <p class="title is-4 pt-1-half">Front End</p>
@@ -32,7 +32,7 @@
               </div>
             </div>
           </div>
-          <div class="column is-half">
+          <div class="column">
             <div class="has-text-centered padded--top__mobile">
               <i class="fad fa-7x fa-conveyor-belt-alt russian-green" aria-hidden="true"></i>
               <p class="title is-4 pt-1-half">CI/CD</p>
@@ -48,7 +48,7 @@
     <div class="columns is-centered">
       <div class="column is-half">
         <div class="columns is-centered pb-4">
-          <div class="column is-half">
+          <div class="column">
             <div class="has-text-centered padded--top">
               <i class="fad fa-7x fa-database russian-green" aria-hidden="true"></i>
               <p class="title is-4 pt-1-half">Database</p>
@@ -57,7 +57,7 @@
               </div>
             </div>
           </div>
-          <div class="column is-half">
+          <div class="column">
             <div class="has-text-centered padded--top">
               <i class="fad fa-7x fa-code-branch russian-green" aria-hidden="true"></i>
               <p class="title is-4 pt-1-half">Version Control</p>
@@ -66,7 +66,7 @@
               </div>
             </div>
           </div>
-          <div class="column is-half">
+          <div class="column">
             <div class="has-text-centered padded--top">
               <i class="fad fa-7x fa-server russian-green" aria-hidden="true"></i>
               <p class="title is-4 pt-1-half">DevOps</p>
