@@ -2,7 +2,7 @@
   <div id="home">
     <section id="home-section" class="section">
       <div class="container has-text-centered">
-        <h1 class="title">Hello there!</h1>
+        <h1 class="title">Hi, I'm Luis!</h1>
       </div>
     </section>
 
