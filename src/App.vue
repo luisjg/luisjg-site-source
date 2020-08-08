@@ -143,7 +143,6 @@
       this.initializeButterCms()
       this.retrieveBlogPosts()
       this.retrieveExperienceData()
-      this.retrieveSchoolData()
       this.retrieveWorkData()
     },
     components: {
@@ -155,7 +154,6 @@
         'initializeButterCms',
         'retrieveBlogPosts',
         'retrieveExperienceData',
-        'retrieveSchoolData',
         'retrieveWorkData'
       ]),
       registerServiceWorker: function () {
