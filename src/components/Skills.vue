@@ -2,7 +2,7 @@
   <div id="experience">
     <section class="section">
       <div class="container has-text-centered">
-        <h1 class="title">
+        <h1 class="title pt-1-half">
           Skills
         </h1>
         <p class="subtitle">
@@ -11,7 +11,7 @@
       </div>
     </section>
 
-    <div class="columns is-centered">
+    <div class="columns is-centered pt-1-half">
       <div class="column is-half">
         <div class="columns is-centered">
           <div class="column">
