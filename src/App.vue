@@ -86,14 +86,23 @@
   .fade-enter, .fade-leave-to {
     opacity: 0;
   }
+  .pb-2{
+    padding-bottom: 2rem;
+  }
   .pb-3 {
     padding-bottom: 3rem;
   }
   .pb-4 {
     padding-bottom: 4rem;
   }
+  .pt-1{
+    padding-top: 1rem;
+  }
   .pt-1-half {
     padding-top: 1.5rem;
+  }
+  .pt-2 {
+    padding-top: 2rem;
   }
   /* width */
   ::-webkit-scrollbar {
