@@ -6,14 +6,14 @@
           <div class="container">
             <div class="navbar-brand">
               <router-link @click.native="closeHamburger()" :to="{name: 'home'}" class="home-logo navbar-item">
-                <span class="is-size-5">
-                  <template v-if="hideNav">
-                    luisjg.io
-                  </template>
-                  <template v-else>
-                    &#60; back to luisjg.io
-                  </template>
-                </span>
+                <template v-if="hideNav">
+<!--                  <img src="https://res.cloudinary.com/dfhliq7vp/image/upload/v1547432443/luisjg/profile.jpg" class="brand-image" alt="profile image">-->
+<!--                  <span class="is-size-5 brand-text">luisjg.io</span>-->
+                  <span class="is-size-5">luisjg.io</span>
+                </template>
+                <template v-else>
+                  <span class="is-size-5">&#60; back to luisjg.io</span>
+                </template>
               </router-link>
               <span @click="hamburgerToggle()" :class="{'is-active': isActive }" class="navbar-burger burger">
                 <span></span>
@@ -26,24 +26,24 @@
               <div class="navbar-end">
                 <template v-if="hideNav">
                   <router-link @click.native="hamburgerToggle()" :to="{name: 'home'}" exact-active-class="is-active" class="navbar-item">
-                    Home
+                    <span class="has-text-weight-bold">01</span>&nbsp;Home
                   </router-link>
                   <router-link @click.native="hamburgerToggle()" :to="{name: 'portfolio'}" active-class="is-active" class="navbar-item">
-                    Portfolio
+                    <span class="has-text-weight-bold">02</span>&nbsp;Portfolio
                   </router-link>
                   <router-link @click.native="hamburgerToggle()" :to="{name: 'experience'}" active-class="is-active" class="navbar-item">
-                    Experience
+                    <span class="has-text-weight-bold">03</span>&nbsp;Experience
                   </router-link>
                   <router-link @click.native="hamburgerToggle()" :to="{name: 'skills'}" active-class="is-active" class="navbar-item">
-                    Skills
+                    <span class="has-text-weight-bold">04</span>&nbsp;Skills
                   </router-link>
                   <router-link @click.native="hamburgerToggle()" :to="{name: 'blog'}" active-class="is-active" class="navbar-item">
-                    Blog
+                    <span class="has-text-weight-bold">05</span>&nbsp;Blog
                   </router-link>
                 </template>
                 <template v-else>
                   <router-link @click.native="hamburgerToggle()" :to="{name: 'blog'}" active-class="is-active" class="navbar-item">
-                    Blog
+                    Posts
                   </router-link>
                 </template>
               </div>
@@ -101,6 +101,13 @@
   }
     #tag-lines {
     padding-top: .5rem;
+  }
+  .brand-image {
+    padding-top: .025em;
+    border-radius: 50%;
+  }
+  .brand-text {
+    padding-left: .3em;
   }
   .image {
     margin: auto;
