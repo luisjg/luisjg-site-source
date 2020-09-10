@@ -14,7 +14,7 @@
     <div class="columns is-centered pt-1-half">
       <div class="column is-half">
         <div class="columns is-centered">
-          <div v-for="(item, value) in firstHalfOfProjects" :key="value" class="column">
+          <div v-for="(item, value) in firstHalfOfProjects" :key="value" class="column is-one-third-desktop is-half-tablet is-full-mobile">
             <figure class="image">
               <a @click.prevent="modalAction" href="#"><img :data-id="item[0]" :src="item[1].image" :alt="item[1].title + ' App Image'"></a>
             </figure>
@@ -28,7 +28,7 @@
     <div class="columns is-centered">
       <div class="column is-half">
         <div class="columns is-centered pb-4">
-          <div v-for="(item, value) in secondHalfOfProjects" :key="value" class="column">
+          <div v-for="(item, value) in secondHalfOfProjects" :key="value" class="column is-one-third-desktop is-half-tablet is-full-mobile">
             <figure class="image">
               <a @click.prevent="modalAction" href="#"><img :data-id="item[0]" :src="item[1].image" :alt="item[1].title + ' App Image'"></a>
             </figure>

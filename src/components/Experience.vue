@@ -11,7 +11,7 @@
       </div>
     </section>
 
-    <div class="columns is-centered is-mobile pb-4 pt-1-half">
+    <div class="columns is-centered pb-4 pt-1-half">
       <div class="column is-half-tablet is-four-fifths-mobile">
         <div class="is-size-5 readability-fix">
           <h3 class="has-text-weight-bold">Web Developer at California State University, Northridge</h3>
@@ -32,6 +32,10 @@
       margin-right: 10%;
       margin-left: 10%;
     }
+  }
+  .readability-fix {
+    margin-right: 5%;
+    margin-left: 5%;
   }
   .is-size-4-desktop p {
     padding-top: 0.5rem;

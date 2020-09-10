@@ -11,7 +11,7 @@
       </div>
     </section>
 
-    <div class="columns is-centered is-mobile pb-4 pt-1-half">
+    <div class="columns is-centered pb-4 pt-1-half">
       <div class="column is-half-tablet is-four-fifths-mobile">
         <p class="is-size-5 readability-fix">
           I'm Luis a <strong>Software Engineer</strong> from the
@@ -47,6 +47,10 @@
       margin-right: 10%;
       margin-left: 10%;
     }
+  }
+  .readability-fix {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 </style>
 
