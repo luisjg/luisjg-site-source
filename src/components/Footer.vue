@@ -4,7 +4,7 @@
       <div class="content">
         <div class="has-text-centered">
           <div>
-            <p>
+            <p class="has-text-weight-light">
               &#169; luisjg {{ currentYear }}
             </p>
           </div>

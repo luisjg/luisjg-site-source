@@ -9,7 +9,7 @@
       </transition>
       <div class="has-text-centered">
         <div>
-          <sup>Built with</sup>
+          <sup class="has-text-weight-light">Built with</sup>
         </div>
         <div class="pt-1-half" style="letter-spacing: .2rem;">
           <a href="https://vuejs.org" rel="noopener noreferrer" target="_blank" aria-label="Visit the Vue homepage to find out more">
