@@ -5,37 +5,29 @@
         <h1 class="title pt-1-half">
           Portfolio
         </h1>
-        <p class="subtitle">
+        <p class="subtitle is-italic">
           What We Built
         </p>
       </div>
     </section>
 
     <div class="columns is-centered pt-1-half">
-      <div class="column is-half">
-        <div class="columns is-centered">
-          <div v-for="(item, value) in firstHalfOfProjects" :key="value" class="column is-one-third-desktop is-half-tablet is-full-mobile">
-            <figure class="image">
-              <a @click.prevent="modalAction" href="#"><img :data-id="item[0]" :src="item[1].image" :alt="item[1].title + ' App Image'"></a>
-            </figure>
-            <p class="has-text-centered title is-4 pt-1-half"><u><a @click.prevent="modalAction" :data-id="item[0]" href="#" class="app-links">{{ item[1].title }}</a></u></p>
-            <div class="has-text-centered" v-html="item[1].description"></div>
-          </div>
-        </div>
+      <div  v-for="(item, value) in firstHalfOfProjects" :key="value" class="column is-one-quarter-tablet is-one-fifth-desktop">
+        <figure class="image">
+          <a @click.prevent="modalAction" href="#"><img :data-id="item[0]" :src="item[1].image" :alt="item[1].title + ' App Image'"></a>
+        </figure>
+        <p class="has-text-centered title is-size-4 pt-1-half"><u><a @click.prevent="modalAction" :data-id="item[0]" href="#" class="app-links">{{ item[1].title }}</a></u></p>
+        <div class="has-text-centered is-size-5" v-html="item[1].description"></div>
       </div>
     </div>
 
-    <div class="columns is-centered">
-      <div class="column is-half">
-        <div class="columns is-centered pb-4">
-          <div v-for="(item, value) in secondHalfOfProjects" :key="value" class="column is-one-third-desktop is-half-tablet is-full-mobile">
-            <figure class="image">
-              <a @click.prevent="modalAction" href="#"><img :data-id="item[0]" :src="item[1].image" :alt="item[1].title + ' App Image'"></a>
-            </figure>
-            <p class="has-text-centered title is-4 pt-1-half"><u><a @click.prevent="modalAction" :data-id="item[0]" href="#" class="app-links">{{ item[1].title }}</a></u></p>
-            <div class="has-text-centered" v-html="item[1].description"></div>
-          </div>
-        </div>
+    <div class="columns is-centered pb-4">
+      <div v-for="(item, value) in secondHalfOfProjects" :key="value" class="column is-one-quarter-tablet is-one-fifth-desktop">
+        <figure class="image">
+          <a @click.prevent="modalAction" href="#"><img :data-id="item[0]" :src="item[1].image" :alt="item[1].title + ' App Image'"></a>
+        </figure>
+        <p class="has-text-centered title is-size-4 pt-1-half"><u><a @click.prevent="modalAction" :data-id="item[0]" href="#" class="app-links">{{ item[1].title }}</a></u></p>
+        <div class="has-text-centered is-size-5" v-html="item[1].description"></div>
       </div>
     </div>
 

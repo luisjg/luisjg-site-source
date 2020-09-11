@@ -5,14 +5,14 @@
         <h1 class="title pt-1-half">
           Hello there!
         </h1>
-        <p class="subtitle">
+        <p class="subtitle is-italic">
           Nice to meet you.
         </p>
       </div>
     </section>
 
     <div class="columns is-centered pb-4 pt-1-half">
-      <div class="column is-half-tablet is-four-fifths-mobile">
+      <div class="column is-four-fifths-tablet is-three-fifths-desktop">
         <p class="is-size-5 readability-fix">
           I'm Luis a <strong>Software Engineer</strong> from the
           <strong>Los Angeles</strong> area with <strong>{{ this.diff }} years</strong>

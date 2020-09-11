@@ -5,17 +5,17 @@
         <h1 class="title pt-1-half">
           Experience
         </h1>
-        <p class="subtitle">
+        <p class="subtitle is-italic">
           What I Contribute
         </p>
       </div>
     </section>
 
     <div class="columns is-centered pb-4 pt-1-half">
-      <div class="column is-half-tablet is-four-fifths-mobile">
+      <div class="column is-four-fifths-tablet is-three-fifths-desktop">
         <div class="is-size-5 readability-fix">
-          <h3 class="has-text-weight-bold">Web Developer at California State University, Northridge</h3>
-          <p>November 2015 - Present</p>
+          <h3 class="has-text-weight-bold is-size-4-tablet">Web Developer at California State University, Northridge</h3>
+          <p class="has-text-weight-light">November 2015 - Present</p>
           <ul>
             <li class="icons list-element" v-for="(item, value) in experienceData" :key="value"><span>{{ item }}</span></li>
           </ul>

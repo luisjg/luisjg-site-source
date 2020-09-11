@@ -5,76 +5,68 @@
         <h1 class="title pt-1-half">
           Skills
         </h1>
-        <p class="subtitle">
+        <p class="subtitle is-italic">
           Tools I Know
         </p>
       </div>
     </section>
 
     <div class="columns is-centered pt-1-half">
-      <div class="column is-half">
-        <div class="columns is-centered">
-          <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
-            <div class="has-text-centered">
-              <i class="fad fa-7x fa-laptop-code russian-green" aria-hidden="true"></i>
-              <p class="title is-4 pt-1-half">Back End</p>
-              <div>
-                PHP, Laravel, Lumen, REST APIs
-              </div>
-            </div>
-          </div>
-          <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
-            <div class="has-text-centered padded--top__mobile">
-              <i class="fad fa-7x fa-browser russian-green" aria-hidden="true"></i>
-              <p class="title is-4 pt-1-half">Front End</p>
-              <div>
-                HTML, CSS, JQuery, Vue.js, Socket.io
-              </div>
-            </div>
-          </div>
-          <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
-            <div class="has-text-centered padded--top__mobile">
-              <i class="fad fa-7x fa-conveyor-belt-alt russian-green" aria-hidden="true"></i>
-              <p class="title is-4 pt-1-half">CI/CD</p>
-              <div>
-                Travis CI, GitHub Actions
-              </div>
-            </div>
-          </div>
+      <div class="column is-one-quarter-tablet is-one-fifth-desktop">
+        <div class="has-text-centered">
+          <i class="fad fa-7x fa-laptop-code russian-green" aria-hidden="true"></i>
+          <p class="title is-size-4 pt-1-half">Back End</p>
+          <p class="is-size-5">
+            PHP, Laravel, Lumen, REST APIs
+          </p>
+        </div>
+      </div>
+      <div class="column is-one-quarter-tablet is-one-fifth-desktop">
+        <div class="has-text-centered padded--top__mobile">
+          <i class="fad fa-7x fa-browser russian-green" aria-hidden="true"></i>
+          <p class="title is-size-4 pt-1-half">Front End</p>
+          <p class="is-size-5">
+            HTML, CSS, JQuery, Vue.js, Socket.io
+          </p>
+        </div>
+      </div>
+      <div class="column is-one-quarter-tablet is-one-fifth-desktop">
+        <div class="has-text-centered padded--top__mobile">
+          <i class="fad fa-7x fa-conveyor-belt-alt russian-green" aria-hidden="true"></i>
+          <p class="title is-size-4 pt-1-half">CI/CD</p>
+          <p class="is-size-5">
+            Travis CI, GitHub Actions
+          </p>
         </div>
       </div>
     </div>
 
-    <div class="columns is-centered">
-      <div class="column is-half">
-        <div class="columns is-centered pb-4">
-          <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
-            <div class="has-text-centered padded--top">
-              <i class="fad fa-7x fa-database russian-green" aria-hidden="true"></i>
-              <p class="title is-4 pt-1-half">Database</p>
-              <div>
-                MongoDB, MySQL, Redis
-              </div>
-            </div>
-          </div>
-          <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
-            <div class="has-text-centered padded--top">
-              <i class="fad fa-7x fa-code-branch russian-green" aria-hidden="true"></i>
-              <p class="title is-4 pt-1-half">Version Control</p>
-              <div>
-                Git, GitHub
-              </div>
-            </div>
-          </div>
-          <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
-            <div class="has-text-centered padded--top">
-              <i class="fad fa-7x fa-server russian-green" aria-hidden="true"></i>
-              <p class="title is-4 pt-1-half">DevOps</p>
-              <div>
-                Docker, Ubuntu, Kubernetes
-              </div>
-            </div>
-          </div>
+    <div class="columns is-centered pb-4">
+      <div class="column is-one-quarter-tablet is-one-fifth-desktop">
+        <div class="has-text-centered padded--top">
+          <i class="fad fa-7x fa-database russian-green" aria-hidden="true"></i>
+          <p class="title is-size-4 pt-1-half">Database</p>
+          <p class="is-size-5">
+            MongoDB, MySQL, Redis
+          </p>
+        </div>
+      </div>
+      <div class="column is-one-quarter-tablet is-one-fifth-desktop">
+        <div class="has-text-centered padded--top">
+          <i class="fad fa-7x fa-code-branch russian-green" aria-hidden="true"></i>
+          <p class="title is-size-4 pt-1-half">Version Control</p>
+          <p class="is-size-5">
+            Git, GitHub
+          </p>
+        </div>
+      </div>
+      <div class="column is-one-quarter-tablet is-one-fifth-desktop">
+        <div class="has-text-centered padded--top">
+          <i class="fad fa-7x fa-server russian-green" aria-hidden="true"></i>
+          <p class="title is-size-4 pt-1-half">DevOps</p>
+          <p class="is-size-5">
+            Docker, Ubuntu, Kubernetes
+          </p>
         </div>
       </div>
     </div>
