@@ -12,7 +12,7 @@
                   <span class="is-size-5">luisjg.io</span>
                 </template>
                 <template v-else>
-                  <span class="is-size-5">&#60; back to luisjg.io</span>
+                  <span class="is-size-5">Return back to luisjg.io</span>
                 </template>
               </router-link>
               <span @click="hamburgerToggle()" :class="{'is-active': isActive }" class="navbar-burger burger">
