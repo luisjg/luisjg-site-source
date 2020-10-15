@@ -43,7 +43,7 @@
 </style>
 
 <script>
-  import moment from 'moment'
+  import dayjs from 'dayjs'
   export default {
     data () {
       return {
@@ -51,7 +51,7 @@
       }
     },
     created () {
-      this.currentYear = moment().format('YYYY')
+      this.currentYear = dayjs().year()
     }
   }
 </script>
