@@ -147,7 +147,7 @@
   export default {
     created () {
       // register service worker
-      // this.registerServiceWorker()
+      this.registerServiceWorker()
       // execute the json calls
       this.initializeButterCms()
       this.retrieveBlogPosts()
