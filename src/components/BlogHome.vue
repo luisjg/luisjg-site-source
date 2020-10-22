@@ -49,7 +49,7 @@
 </style>
 
 <script>
-import moment from 'moment'
+import dayjs from 'dayjs'
 import { mapActions, mapGetters } from 'vuex'
 export default {
   created () {
@@ -89,7 +89,7 @@ export default {
       'posts'
     ]),
     fomatDate (value) {
-      return moment(value).format('MMMM Do, YYYY')
+      return dayjs(value).format('MMMM Do, YYYY')
     }
   }
 }

@@ -147,7 +147,7 @@
 </style>
 
 <script>
-  import moment from 'moment'
+  import dayjs from 'dayjs'
   import { mapGetters, mapActions } from 'vuex'
   export default {
     name: 'blog-post',
@@ -164,7 +164,7 @@
     },
     computed: {
       postCreatedAt () {
-        return moment(this.post.data.published).format('MMM Do YYYY')
+        return dayjs(this.post.data.published).format('MMM Do YYYY')
       },
       postBody () {
         if (this.post && this.post.data.body) {

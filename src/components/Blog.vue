@@ -41,7 +41,7 @@
                 <div class="columns">
                   <div class="column is-8 is-offset-2">
                     <div class="content is-medium">
-                      <h2 class="subtitle is-4">{{ this.moment(secondPost.published) }}</h2>
+                      <h2 class="subtitle is-4">{{ this.dayjs(secondPost.published) }}</h2>
                       <h1 class="title">
                         <router-link :to="'/blog/' + secondPost.slug">
                           {{ secondPost.title }}
@@ -92,7 +92,8 @@
 </template>
 <script>
   import { mapGetters, mapActions } from 'vuex'
-  import moment from 'moment'
+  import dayjs from 'dayjs'
+  import advancedFormat from 'dayjs/plugin/advancedFormat'
   export default {
     data () {
       return {
@@ -132,7 +133,8 @@
         'initializeButterCms'
       ]),
       formatDate (value) {
-        return moment(value).format('MMMM Do, YYYY')
+        dayjs.extend(advancedFormat)
+        return dayjs(value).format('MMMM Do, YYYY')
       }
     },
     components: {
