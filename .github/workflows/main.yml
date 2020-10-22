@@ -18,6 +18,5 @@ jobs:
       - name: build
         run: |
           npm -v
-          cd vue-redesign
           ls -l
           npm install
