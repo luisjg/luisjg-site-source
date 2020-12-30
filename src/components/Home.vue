@@ -55,19 +55,16 @@
 </style>
 
 <script>
-import dayjs from 'dayjs'
-import converter from 'number-to-words'
 export default {
   data () {
     return {
-      now: dayjs(),
-      then: dayjs('2016-02-14'),
-      diff: String
+      now: new Date(),
+      then: new Date('2016-02-14'),
+      diff: null
     }
   },
   created () {
-    this.diff = this.now.diff(this.then, 'year').toString()
-    this.diff = converter.toWords(this.diff)
+    this.diff = this.now.getFullYear() - this.then.getFullYear()
   }
 }
 </script>

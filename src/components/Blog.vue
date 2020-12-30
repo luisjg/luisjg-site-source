@@ -92,8 +92,6 @@
 </template>
 <script>
   import { mapGetters, mapActions } from 'vuex'
-  import dayjs from 'dayjs'
-  import advancedFormat from 'dayjs/plugin/advancedFormat'
   export default {
     data () {
       return {
@@ -133,8 +131,8 @@
         'initializeButterCms'
       ]),
       formatDate (value) {
-        dayjs.extend(advancedFormat)
-        return dayjs(value).format('MMMM Do, YYYY')
+        let publishedDate = new Date(value)
+        return publishedDate.toDateString()
       }
     },
     components: {

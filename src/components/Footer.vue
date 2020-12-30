@@ -43,15 +43,15 @@
 </style>
 
 <script>
-  import dayjs from 'dayjs'
   export default {
     data () {
       return {
-        currentYear: ''
+        currentYear: null
       }
     },
     created () {
-      this.currentYear = dayjs().year()
+      let date = new Date()
+      this.currentYear = date.getFullYear()
     }
   }
 </script>
