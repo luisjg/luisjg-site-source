@@ -42,32 +42,12 @@
                   </router-link>
                 </template>
                 <template v-else>
-                  <router-link @click.native="hamburgerToggle()" :to="{name: 'blog'}" active-class="is-active" class="navbar-item">
+                  <router-link @click.native="hamburgerToggle()" :to="{name: 'blog'}" exact-active-class="is-active" class="navbar-item">
                     Posts
                   </router-link>
                 </template>
               </div>
             </div>
-            <template v-if="checkPosts">
-              <div class="navbar-menu">
-                <div class="navbar-end">
-                  <router-link
-                    :to="/blog/ + previousPost"
-                    class="navbar-item"
-                    @click.native="hamburgerToggle()"
-                  >
-                    <i style="margin-right: 0.5rem;" class="far fa-chevron-left"></i> Previous
-                  </router-link>
-                  <router-link
-                    :to="/blog/ + nextPost"
-                    class="navbar-item"
-                    @click.native="hamburgerToggle()"
-                  >
-                    Next <i style="margin-left: 0.5rem;" class="far fa-chevron-right"></i>
-                  </router-link>
-                </div>
-              </div>
-            </template>
           </div>
         </nav>
       </div>
