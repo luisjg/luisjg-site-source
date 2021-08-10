@@ -15,7 +15,7 @@
                     </figure>
                   </div>
                   <div class="media-content has-text-centered">
-                    <p class="title article-title">{{ postTitle }}</p>
+                    <h1 class="title article-title">{{ postTitle }}</h1>
                     <div class="tags has-addons level-item">
                       <div class="tag is-rounded">{{ postCreatedAt }}</div>
                     </div>
@@ -29,7 +29,7 @@
           </div>
           <div v-if="checkPosts" class="columns">
             <div class="column is-offset-2">
-              <router-link
+              <router-link  v-if="previousPost !== null"
                 :to="/blog/ + previousPost"
                 class="button"
               >
@@ -39,7 +39,7 @@
             <div class="column">
             </div>
             <div class="column">
-              <router-link
+              <router-link  v-if="nextPost !== null"
                 :to="/blog/ + nextPost"
                 class="button"
               >
@@ -188,14 +188,14 @@
       },
       nextPost () {
         if (this.post != null && this.post.meta.next_post != null) {
-          return this.post.meta.next_post
+          return this.post.meta.next_post.slug
         } else {
           return null
         }
       },
       previousPost () {
         if (this.post != null && this.post.meta.previous_post != null) {
-          return this.post.meta.previous_post
+          return this.post.meta.previous_post.slug
         } else {
           return null
         }
