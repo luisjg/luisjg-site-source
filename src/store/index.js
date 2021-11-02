@@ -46,7 +46,7 @@ export default new Vuex.Store({
     retrieveExperienceData: function (context) {
       if (!sessionStorage.getItem('experience')) {
         axios
-          .get('https://luisjg.io/json/experience.json')
+          .get('https://luisjg.dev/v5/json/experience.json')
           .then(response => {
             context.commit('storeExperienceData', response.data)
           })
@@ -60,7 +60,7 @@ export default new Vuex.Store({
     retrieveSchoolData: function (context) {
       if (!sessionStorage.getItem('school')) {
         axios
-          .get('https://luisjg.io/json/education.json')
+          .get('https://luisjg.dev/v5/json/education.json')
           .then(response => {
             context.commit('storeSchoolData', response.data)
           })
@@ -74,7 +74,7 @@ export default new Vuex.Store({
     retrieveWorkData: function (context) {
       if (!sessionStorage.getItem('work')) {
         axios
-          .get('https://luisjg.io/json/work.json')
+          .get('https://luisjg.dev/v5/json/work.json')
           .then(response => {
             context.commit('storeWorkData', response.data)
           })

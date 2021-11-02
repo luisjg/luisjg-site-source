@@ -32,7 +32,7 @@
         </p>
         <p class="is-size-5 has-text-centered pt-1-half readability-fix"> If you would like to
           know more about me or are interested in collaborating,
-          feel free and <strong><a href="mailto:contact@luisjg.io"
+          feel free and <strong><a href="mailto:contact@luisjg.dev"
             rel="noopener noreferrer" target="_blank"
             aria-label="Send me an e-mail, let's talk."><u>send me an email</u></a></strong>.
         </p>
